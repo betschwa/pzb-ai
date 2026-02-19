@@ -1,24 +1,7 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.example</groupId>
-    <artifactId>pzb-ai</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <properties>
-        <java.version>25</java.version>
-        <kotlin.version>2.0.21</kotlin.version>
-        <ktor.version>2.3.12</ktor.version>
-        <exposed.version>0.53.0</exposed.version>
-        <postgresql.version>42.7.4</postgresql.version>
-        <slf4j.version>2.0.16</slf4j.version>
-        <logback.version>1.5.12</logback.version>
-    </properties>
-
+<project>
     <modules>
-        <!-- Define your modules here -->
+        <module>pzb-ai-core</module>
+        <module>pzb-ai-backend</module>
+        <module>pzb-ai-frontend</module>
     </modules>
 </project>
